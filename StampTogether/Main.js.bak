@@ -77,8 +77,8 @@ Elm.StampTogether.Main.make = function (elm)
                                                                                                                                                                                                                                                                                                    1,
                                                                                                                                                                                                                                                                                                    1,
                                                                                                                                                                                                                                                                                                    0.7))(A2(Graphics.Collage.ngon,
-                                                                                                                                                                                                                                                                                                            20,
-                                                                                                                                                                                                                                                                                                            5))));
+                                                                                                                                                                                                                                                                                                            5,
+                                                                                                                                                                                                                                                                                                            20))));
                                                                                                   }();
                                                                                          };
                                                                       return A3(Graphics.Collage.collage,
@@ -143,7 +143,7 @@ Elm.StampTogether.Main.make = function (elm)
                                                          {
                                                            return A4(Http.request,
                                                                      requestType,
-                                                                     "https://sweltering-fire-9141.firebaseio.com/dissertation/js/12.json",
+                                                                     "https://thsoft.firebaseio-demo.com/stamps.json",
                                                                      requestData,
                                                                      _J.toList([]));
                                                          });
@@ -166,7 +166,7 @@ Elm.StampTogether.Main.make = function (elm)
                                                                  break;}
                                                               break;}
                                                            return A2(firebaseRequest,
-                                                                     "", //"post",
+                                                                     "post",
                                                                      toRequestData(click));
                                                          }();
                                                 };
